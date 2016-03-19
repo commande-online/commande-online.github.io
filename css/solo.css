@@ -197,6 +197,11 @@ pre > code {
   margin: 0 auto;
   padding: 0 0.75rem;
 }
+@media (min-width: 800px) {
+  .container {
+    max-width: 1200px;
+  }
+}
 
 .sharing {
   text-align: center;
@@ -265,5 +270,4 @@ pre > code {
 
 .sharing-buttons {
 	width: 100%;
-}
 }
