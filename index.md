@@ -6,11 +6,11 @@ layout: default
 
 ![Commande-Online.fr SAS](http://commande-online.fr/img/corporate/logoCOL.png)
 
-### List of API available
+### API available v2.6
 
-| URL                                      | Type   | Description |
-|------------------------------------------|--------|-------------|
-| /bo-management/pages/list/               | GET    | List of all pages |
+| URL                                                         | Type   | Description |
+|-------------------------------------------------------------|--------|-------------|
+| [/bo-management/pages/list/](/page.html#list)               | GET    | List of all pages |
 | /bo-management/pages/list/update         | GET    | List of pages that have been updated |
 | /bo-management/pages/{name}              | GET    | Load a page |
 | /bo-management/pages/{name}              | POST   | Update a page |
