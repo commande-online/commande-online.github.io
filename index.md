@@ -11,10 +11,10 @@ layout: default
 | URL                                                         | Type   | Description |
 |-------------------------------------------------------------|--------|-------------|
 | [/bo-management/pages/list/](/page.html#list)               | GET    | List of all pages |
-| /bo-management/pages/list/update         | GET    | List of pages that have been updated |
-| /bo-management/pages/{name}              | GET    | Load a page |
-| /bo-management/pages/{name}              | POST   | Update a page |
-| /bo-management/pages/{name}              | DELETE | Delete a page |
+| [/bo-management/pages/list/update](/page.html#list-update)  | GET    | List of pages that have been updated |
+| [/bo-management/pages/{name}](/page.html#get)               | GET    | Load a page |
+| [/bo-management/pages/{name}](/page.html#update)            | POST   | Update a page |
+| [/bo-management/pages/{name}](/page.html#delete)            | DELETE | Delete a page |
 | /bo-management/promotions/list/          | GET    | List of all promotions |
 | /bo-management/promotions/{name}         | GET    | Load a promotion |
 | /bo-management/promotions/{name}         | POST   | Update a promotion |
@@ -51,3 +51,7 @@ layout: default
 | /bo-management/users/{name}              | POST   | Update a user |
 | /bo-management/users/{name}              | DELETE | Delete a user |
 | /bo-management/languages                 | GET    | List of available languages |
+
+### Error object
+
+In case a request doesn't work properly, an error is thrown on the server and sent back to the caller.
