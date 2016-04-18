@@ -6,20 +6,20 @@ layout: default
 
 ![Commande-Online.fr SAS](http://commande-online.fr/img/corporate/logoCOL.png)
 
-### API available v2.6
+### API v2.6
 
-| URL                                                         | Type   | Description |
-|-------------------------------------------------------------|--------|-------------|
-| [/bo-management/pages/list/](/page.html#list)               | GET    | List of all pages |
-| [/bo-management/pages/list/update](/page.html#list-update)  | GET    | List of pages that have been updated |
-| [/bo-management/pages/{name}](/page.html#get)               | GET    | Load a page |
-| [/bo-management/pages/{name}](/page.html#update)            | POST   | Update a page |
-| [/bo-management/pages/{name}](/page.html#delete)            | DELETE | Delete a page |
-| /bo-management/promotions/list/          | GET    | List of all promotions |
-| /bo-management/promotions/{name}         | GET    | Load a promotion |
-| /bo-management/promotions/{name}         | POST   | Update a promotion |
-| /bo-management/promotions/{name}         | DELETE | Delete a promotion |
-| /bo-management/promotions/{name}/send    | POST   | Send a promotion to the users |
+| URL                                                           | Type   | Description |
+|---------------------------------------------------------------|--------|-------------|
+| [/bo-management/pages/list/](/page.html#list)                 | GET    | List of all pages |
+| [/bo-management/pages/list/update](/page.html#list-update)    | GET    | List of pages that have been updated |
+| [/bo-management/pages/{name}](/page.html#get)                 | GET    | Load a page |
+| [/bo-management/pages/{name}](/page.html#update)              | POST   | Update a page |
+| [/bo-management/pages/{name}](/page.html#delete)              | DELETE | Delete a page |
+| [/bo-management/promotions/list/](/promotion.html#list)       | GET    | List of all promotions |
+| [/bo-management/promotions/{name}](/promotion.html#get)       | GET    | Load a promotion |
+| [/bo-management/promotions/{name}](/promotion.html#update)    | POST   | Update a promotion |
+| [/bo-management/promotions/{name}](/promotion.html#delte)     | DELETE | Delete a promotion |
+| [/bo-management/promotions/{name}/send](/promotion.html#send) | POST   | Send a promotion to the users |
 | /bo-management/templates/list/           | GET    | List of all templates |
 | /bo-management/templates/{name}          | GET    | Load a template |
 | /bo-management/templates/{name}          | POST   | Update a template |
@@ -54,4 +54,4 @@ layout: default
 
 ### Error object
 
-In case a request doesn't work properly, an error is thrown on the server and sent back to the caller.
+In case a request doesn't work properly, an error is thrown on the server and sent back to the caller through a JSON object
