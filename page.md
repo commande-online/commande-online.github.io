@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 
 ## Page API
@@ -22,7 +22,7 @@ layout: default
 | logStatus     | array logStatus   | Audit log of the page |
 | last_refresh  | timestamp         | Timestamp of the last action on the object | 
 
-### Object Version description <a id="version"></a>
+#### Sub-object Version description <a id="version"></a>
  
 | Attribute     | Type              | Description |
 |---------------|-------------------|-------------|
@@ -30,7 +30,7 @@ layout: default
 | date          | date ISO format   | Date of creation |
 | text          | alpha             | Text of the page in the given version | 
 
-### Object Comment description <a id="comment"></a>
+#### Sub-object Comment description <a id="comment"></a>
  
 | Attribute     | Type              | Description |
 |---------------|-------------------|-------------|
@@ -51,7 +51,7 @@ Type of request : GET
 
 | Parameter | Position | Default | Type | Description |
 |-----------|----------|---------|------|-------------|
-| {start}   | 1        | 0       | num  | Pagination, fist element |
+| {start}   | 1        | 0       | num  | Pagination, first element |
 | {limit}   | 2        | 50      | num  | Pagination, number of element |
 
 #### Return values
@@ -77,7 +77,7 @@ Type of request : GET
 
 | Parameter | Position | Default | Type      | Description |
 |-----------|----------|---------|-----------|-------------|
-| {since}   | 1        | *TODAY* | timestamp | Pagination, fist element |
+| {since}   | 1        | *TODAY* | timestamp | Pagination, first element |
 
 #### Return values
 
@@ -134,7 +134,7 @@ JSON object with a single element "OK" with the value "1"
 
 
 
-### Delete a page <a id="update"></a>
+### Delete a page <a id="delete"></a>
 
 Default URL to request : /bo-management/pages/{name}     
 Type of request : DELETE
