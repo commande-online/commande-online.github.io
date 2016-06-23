@@ -20,10 +20,10 @@ layout: default
 | [/bo-management/promotions/{name}](/promotion.html#update)    | POST   | Update a promotion |
 | [/bo-management/promotions/{name}](/promotion.html#delte)     | DELETE | Delete a promotion |
 | [/bo-management/promotions/{name}/send](/promotion.html#send) | POST   | Send a promotion to the users |
-| /bo-management/templates/list/           | GET    | List of all templates |
-| /bo-management/templates/{name}          | GET    | Load a template |
-| /bo-management/templates/{name}          | POST   | Update a template |
-| /bo-management/templates/{name}          | DELETE | Delete a template |
+| [/bo-management/templates/list/](/template.html#list)         | GET    | List of all templates |
+| [/bo-management/templates/{id}](/template.html#get)           | GET    | Load a template |
+| [/bo-management/templates/{id}](/template.html#update)        | POST   | Update a template |
+| [/bo-management/templates/{id}](/template.html#delete)        | DELETE | Delete a template |
 | /bo-management/categories/list/          | GET    | List of all categories |
 | /bo-management/categories/list/update    | GET    | List of categories that have been updated |
 | /bo-management/categories/{name}         | GET    | Load a category |
