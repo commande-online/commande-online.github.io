@@ -6,15 +6,6 @@ layout: page
 
 ### Object Template description <a id="object"></a>
 
-this._id = _id;
-                this.site = site;
-                this.name = name;
-                this.labelPriceSelect = labelPriceSelect;
-                this.fields = fields;
-                this.products = products;
-                this.status = status;
-                this.logStatus = logStatus;
-
 | Attribute         | Type              | Description                                                   |
 |-------------------|-------------------|---------------------------------------------------------------|
 | \_id.$id          | ObjectId          | Object ID from the MongoDB                                    |
